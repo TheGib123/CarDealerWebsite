@@ -1,4 +1,11 @@
-{% extends "./base.html" %}
+{% extends "./headerFooterBase.html" %}
+
+{% block head %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'Vehicles/postings.css' %}">
+{% endblock %}
+
+
 {% block content %}
 
 

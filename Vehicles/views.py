@@ -2,7 +2,9 @@ from django.shortcuts import render
 
 # Create your views here.
 
-from .models import  Car, Motorcycle, Suv, Truck
+from .models import Car, Motorcycle, Suv, Truck
+#from Vehicles.models import Car, Motorcycle, Suv, Truck
+
 
 def index(request):
     context = {}
